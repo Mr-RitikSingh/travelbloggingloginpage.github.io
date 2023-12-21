@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel blogging loginpage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+        }
+        .body{
+            height: 641px;
+            overflow: hidden;
+            background-image: linear-gradient(rgb(41, 41, 182), rgb(41, 41, 182));
+        }
+        .image{
+            margin: 0px;
+            height: 100%;
+            width: 900px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            /* box-shadow: 0px 0px 20px -2px rgb(0, 0, 0); */
+            box-shadow: 2px 0 10px -2px black;
+            display: inline-block;
+        }
+        .quote{
+            font-family: 'Outfit', sans-serif;
+            color: white;
+            position: absolute;
+            top: 60px;
+            left: 100px;
+            font-size: 40px;
+            letter-spacing: -1px;
+            word-spacing: 4px;
+            text-align: center;
+            font-weight: 1000;
+        }
+        .logo{
+            padding-left: 20px;
+            position: absolute;
+            top: 560px;
+            left: 340px;
+        }
+        .facebook{
+            display: inline-block;
+        }
+        .twitter{
+            margin-left: 40px;
+            display: inline-block;
+        }
+        .insta{
+            margin-left: 40px;
+            display: inline-block;
+        }
+        .blue{
+            display: inline-block;
+            position: absolute;
+            left: 900px;
+            top: 120px;
+            color: white;
+            font-size: 25px;
+            height: 400px;
+        }
+        .email{
+            margin-top: 120px;
+            width: 230px;
+            background-color: transparent;
+            border-bottom: 2px solid white;
+            border-top: 2px solid rgb(41, 41, 182);
+            border-left: 2px solid rgb(41, 41, 182);
+            border-right: 2px solid rgb(41, 41, 182);
+            text-decoration: underline;
+            height: 25px;
+        }
+        .email::placeholder{
+            color: white;
+            font-size: 10px;
+        }
+        .password{
+            margin-top: 15px;
+            width: 230px;
+            background-color: transparent;
+            border-bottom: 2px solid white;
+            border-top: 2px solid rgb(41, 41, 182);
+            border-left: 2px solid rgb(41, 41, 182);
+            border-right: 2px solid rgb(41, 41, 182);
+            text-decoration: underline;
+            height: 25px;
+        }
+        .password::placeholder{
+            color: white;
+            font-size: 10px;
+        }
+        .a{
+            font-family: 'Outfit', sans-serif;
+            text-decoration: none;
+            color: white;
+            font-size: 13px;
+            display: inline-block;
+            margin-left: 106px;
+            margin-top: 15px;
+        }
+        button{
+            font-family: 'Outfit', sans-serif;
+            margin-top: 30px;
+            font-size: 14px;
+            width: 230px;
+            height: 37px;
+            border: 1px solid white;
+            border-radius: 44px;
+            color: blue;
+            cursor: pointer;
+        }
+        .facebookblack{
+            position: absolute;
+            left: 160px;
+            top: 80px;
+        }
+        .google{
+            position: absolute;
+            left: 207px;
+            top: 77px;
+        }
+        .linked{
+            position: absolute;
+            left: 262px;
+            top: 80px;
+        }
+        button:hover{
+            background-color: rgb(126, 126, 126);
+        }
+        .c{
+            border: 2px solid white;
+            width: 0px;
+            height: 40px;
+            position: absolute;
+            top: -6px;
+            left: 108px;
+        }
+        .d{
+            border: 2px solid white;
+            width: 40px;
+            height: 0px;
+            position: absolute;
+            top: -6px;
+            left: 108px;
+        }
+        .e{
+            border: 2px solid white;
+            width: 40px;
+            height: 0px;
+            position: absolute;
+            top: 31px;
+            left: 308px;
+        }
+        .f{
+            border: 2px solid white;
+            width: 0px;
+            height: 40px;
+            position: absolute;
+            top: -9px;
+            left: 348px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="body">
+        <img src="travell.jpg" class="image">
+        <div class="quote">“LIFE IS EITHER A DARING ADVENTURE <br> OR NOTHING AT ALL.”</div>
+        <div class="logo">
+            <a href=""><img src="facebooklogo2.png" width="30px" class="facebook"></a>
+            <a href=""><img src="twitter2.png" width="30px" class="twitter"></a>
+            <a href=""><img src="insta2.webp" width="30px" class="insta"></a>
+        </div>
+        <div class="blue">
+            <center>
+                <div>TRAVEL BLOGGER</div>
+                <img src="facebookblack.png" width="30px" class="facebookblack">
+                <img src="googleblack.png" width="37px" class="google">
+                <img src="linkedblack.png" width="30px" class="linked">
+                <input type="email" placeholder="Email" class="email">
+                <input type="password" placeholder="Password" class="password">
+                <a href="" class="a"><p class="b">Forgot your Password?</p></a>
+                <button><b>ENTER</b></button>
+                <div class="c"></div>
+                <div class="d"></div>
+                <div class="e"></div>
+                <div class="f"></div>
+            </center>
+        </div>
+    </div>
+    
+</body>
+</html>
